@@ -3,7 +3,7 @@ lazy val commonSettings = Seq(
   scalaVersion := "2.11.7"
 )
 
-lazy val core = (project in file("core"))
+lazy val spin = (project in file("spin"))
   .dependsOn(util)
   .settings(commonSettings: _*)
 
